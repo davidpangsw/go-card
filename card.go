@@ -16,7 +16,7 @@ func (c *Card) Suit() *Suit {
 	return c.suit
 }
 
-func (c *Card) string() string {
+func (c *Card) String() string {
 	return c.suit.symbol + c.rank.symbol
 }
 
