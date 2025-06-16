@@ -1,3 +1,3 @@
-module github.com/davidpangsw/card
+module go-card
 
 go 1.24.4
