@@ -1,2 +1,2 @@
 # go-card
-A go package of cards as a coding revision
+A lightweight go module of cards
