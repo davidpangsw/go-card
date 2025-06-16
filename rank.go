@@ -31,3 +31,7 @@ func (r *Rank) Value() int {
 func (r *Rank) Symbol() string {
 	return r.symbol
 }
+
+func RankOfValue(value int) *Rank {
+	return AllRanks[value-1]
+}

@@ -20,6 +20,10 @@ func (s *Suit) DisplaySymbol() string {
 	return s.displaySymbol
 }
 
+func SuitOfValue(value int) *Suit {
+	return AllSuits[value-1]
+}
+
 // allSuits defines all possible suits in a standard deck.
 var AllSuits = [4]*Suit{
 	{value: 1, symbol: "C", displaySymbol: "♣"},
