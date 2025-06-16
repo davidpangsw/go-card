@@ -2,5 +2,5 @@
 A lightweight go module of cards
 
 ```
-go get github.com/davidpangsw/card
+go get github.com/davidpangsw/go-card
 ```
